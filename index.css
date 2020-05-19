@@ -14,13 +14,15 @@ body{
     --colorTheme: rgb(51, 105, 63, 0.6);
 }
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .headbar, .sidebar ,.sidecontent, .content{
+        background-color: var(--colorTheme);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+    }
 .headbar {
     position: fixed;
     z-index: 1;
     top: 0;
-    background-color: var(--colorTheme);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,26 +39,18 @@ body{
     overflow: hidden;
     height: 0;
     width: 100%;
-    background-color: var(--colorTheme);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
     transition: 0.5s;
 }
 .content{
     display: flex;
     flex-direction: column;
     width: 40%;
-    background-color: var(--colorTheme);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
     color: white;
     padding: 1rem 2rem;
     border-radius: 1rem;
 }
 .sidecontent{
-    background-color: var(--colorTheme);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    background-color:rgb(255,255,255,0.6);
     border-radius: 1rem 0rem 0rem 1rem;
     width: 21rem;
     height: 30rem;

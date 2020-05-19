@@ -30,7 +30,6 @@ body{
     
    } 
    .sidebar{
-       background-color: rgb(0,0,0,0.8) !important;
     display: flex;
     top: 0;
     flex-direction: column;
@@ -134,3 +133,10 @@ iframe{
         display: none;
     }
 }
+@supports (-webkit-touch-callout: none) {
+        .sidebar{
+            background-color: rgb(0,0,0,0.8);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+        }
+  }

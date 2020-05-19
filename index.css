@@ -134,7 +134,7 @@ iframe{
     }
 }
 @supports (-webkit-touch-callout: none) {
-        .sidebar{
+        #sidebar{
             background-color: rgb(0,0,0,0.8);
             -webkit-backdrop-filter: blur(10px);
             backdrop-filter: blur(10px);

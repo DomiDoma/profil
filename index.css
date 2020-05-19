@@ -54,7 +54,7 @@ body{
     border-radius: 1rem;
 }
 .sidecontent{
-    background-color: rgb(255,255,255,0.6);
+    background-color: var(--colorTheme);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     border-radius: 1rem 0rem 0rem 1rem;

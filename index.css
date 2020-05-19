@@ -133,3 +133,8 @@ iframe{
         display: none;
     }
 }
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+    .ios.sidebar {
+        -webkit-backdrop-filter: blur(60px);
+    }
+}

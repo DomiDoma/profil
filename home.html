@@ -10,6 +10,9 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v7.0"></script>
     <div class="sidebar" id="sidebar">
         <a href="#" class="navlinks" id="closeBtn" onclick="exitSideBar()">&times;</a>
         <a href="home.html" class="navlinks">Kezdőlap</a>
@@ -18,13 +21,12 @@
     </div>
     <div class="headbar">
         <img class="logo" id="logo" src="logo.jpeg" alt="">
+        <a href="#" class="navlinks" id="moreBtn" onclick="showSideBar()">&#9776;</a>
+        <a href="home.html" id="actual" class="navlinks realnavlinks">Kezdőlap</a>
+        <a href="about.html" class="navlinks realnavlinks">A cégről</a>
+        <a href="contact.html" class="navlinks realnavlinks">Kapcsolat</a>
+        <a href="#" class="navlinks" id="toTopBtn">&uarr;</a>
 
-        <div class="headbarNavlinks">
-            <a href="#" class="navlinks" id="moreBtn" onclick="showSideBar()">&#9776;</a>
-            <a href="home.html" id="actual" class="navlinks realnavlinks">Kezdőlap</a>
-            <a href="about.html" class="navlinks realnavlinks">A cégről</a>
-            <a href="contact.html" class="navlinks realnavlinks">Kapcsolat</a>
-        </div>
     </div>
     <div class="main">
         <div class="content">
@@ -75,16 +77,16 @@
                 repellat ab harum quas.
             </p>
         </div>
+        <div class="sidecontent">
+            <div class="fb-page" data-href="https://www.facebook.com/profilhazkft" data-tabs="timeline" data-width=""
+            data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+            data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/profilhazkft" class="fb-xfbml-parse-ignore"><a
+                href="https://www.facebook.com/profilhazkft">Profi-lház Kft.</a></blockquote>
+            </div>
+        </div>
     </div>
-    <div class="sidecontent">
         
-            <iframe
-            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofilhazkft&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-            width="100%" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-            allowTransparency="true" allow="encrypted-media"></iframe>
-        
-    </div>
-
 </body>
 
 </html>

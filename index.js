@@ -17,7 +17,7 @@ function showSideBar() {
             document.getElementById("logo").style.setProperty("--logoBorder", 0.2+"rem");
             document.getElementById("toTopBtn").style.setProperty("display", "block");
         }
-        prevScrollpos = currentScrollPos;
+        prevScrollpos = currentScrollPos; 
     }
     
 

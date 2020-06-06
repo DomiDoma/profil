@@ -97,6 +97,9 @@ body{
     bottom: 0;
     right: 0;
 }
+#toTopBtn{
+    display: none;
+}
 @media(max-width: 30rem){
     .realnavlinks{
         display: none;

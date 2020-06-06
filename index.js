@@ -1,5 +1,5 @@
 function showSideBar() {
-        document.getElementById('sidebar').style.height = "30%";
+        document.getElementById('sidebar').style.height = "100%";
     }
     function exitSideBar() {
         document.getElementById('sidebar').style.height = "0";

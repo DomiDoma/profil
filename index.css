@@ -18,10 +18,12 @@ body{
 }
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
     .headbar, .sidebar ,.sidecontent, .content{
-        background-color: var(--colorTheme);
         -webkit-backdrop-filter: blur(6px);
         backdrop-filter: blur(6px);
     }
+}
+.headbar, .sidebar ,.sidecontent, .content{
+    background-color: var(--colorTheme);
 }
 .headbar {
     position: fixed;
